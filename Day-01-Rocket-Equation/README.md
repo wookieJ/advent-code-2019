@@ -15,3 +15,15 @@ So, the total fuel required for a module of mass `1969` is `654 + 216 + 70 + 21 
 `33583 + 11192 + 3728 + 1240 + 411 + 135 + 43 + 12 + 2 = 50346`.
 
 **Find out the sum of the fuel requirements from input data.**
+
+## Run test
+
+From this path (`advent-code-2019/Day-01-Rocket-Equation`) just:
+
+`make test`
+
+## Run
+
+From this path (`advent-code-2019/Day-01-Rocket-Equation`) just:
+
+`make run`

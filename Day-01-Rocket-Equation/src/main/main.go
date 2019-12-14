@@ -9,18 +9,18 @@ import (
 	"strings"
 )
 
-const PATH = "/Day-01-Rocket-Equation/src/data/input"
+const path = "/src/data/input"
 
 func main() {
 	fmt.Println("--- Day 1: The Tyranny of the Rocket Equation ---")
 	pwd, _ := os.Getwd()
-	input, err := getInput(pwd + PATH)
+	input, err := getInput(pwd + path)
 	if err != nil {
 		log.Fatal(err)
 	}
 	masses := getIntModulesMassesFromInput(input)
 	result := computeFuelSum(masses)
-	fmt.Println(fmt.Sprintf(">> %d", result))
+	fmt.Println(fmt.Sprintf("Part 2 >> %d", result))
 }
 
 func getInput(path string) (string, error) {
